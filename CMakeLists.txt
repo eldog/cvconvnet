@@ -94,6 +94,7 @@ INCLUDE_DIRECTORIES(include/
 
 # Here is out library
 ADD_LIBRARY(cvconvnet SHARED ${CVCONVNET_SRCS})
+ADD_LIBRARY(cvconvnet_static STATIC ${CVCONVNET_SRCS})
 SET(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
 
 # Here are our test programs
