@@ -1,0 +1,8 @@
+cvconvnet
+---------
+
+C++ implementation of a convolution neural network.
+
+Essentially it is conv-net http://conv-net.sourceforge.net/, with additional
+layers including a linear neuron and a max pooling layer.
+
