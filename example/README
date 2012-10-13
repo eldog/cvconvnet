@@ -1,0 +1,10 @@
+Description of files in this directory:
+
+testimg.cpp --- source for sample utility using the library
+testimg.sh --- shell script doing some testing on a test image data set
+testmnist.cpp --- source for a utility that runs over whole MNIST test dataset
+testmnist.sh --- shell script starting testing MNIST data set
+data/ --- directory with test data (MNIST dataset is NOT included!)
+
+For more detailed documentation, see 
+http://conv-net.sf.net
